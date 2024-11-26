@@ -1,0 +1,66 @@
+﻿@model PRMS.Models.Message
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceiverId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceiverId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceiverType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceiverType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageContent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageContent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Timestamp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Timestamp)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MessageId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

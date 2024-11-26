@@ -1,0 +1,27 @@
+﻿@model PRMS.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <div>
+        <label>Email</label>
+        @Html.TextBoxFor(m => m.Email)
+    </div>
+    <div>
+        <label>Password</label>
+        @Html.PasswordFor(m => m.Password)
+    </div>
+    <button type="submit">Login</button>
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="error-message">
+        @Html.ValidationSummary()
+    </div>
+}

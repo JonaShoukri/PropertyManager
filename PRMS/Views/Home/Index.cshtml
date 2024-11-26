@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Dashboard</h1>
+        <p class="lead">ReManage is a rental property management platform designed for Owners, staff and current or potential tenants.</p>
+    </section>
+
+    <div class="row">
+        @if (Session["Role"] == null)
+        {
+            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+                <h2 id="gettingStartedTitle"> Login</h2>
+                <p>
+                    Sign in to access your account and make use of the features available to
+                </p>
+                <p><a class="btn btn-outline-dark" href="/Home/Login">Sign In &raquo;</a></p>
+            </section>
+            <section class="col-md-4" aria-labelledby="librariesTitle">
+                <h2 id="librariesTitle">Sign Up</h2>
+                <p>Create an account and link it to others if needed in order to establish a relationship between your account and theirs.</p>
+                <p><a class="btn btn-outline-dark" href="/Home/CreateAccount">Create Account &raquo;</a></p>
+            </section>
+        }
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">View Listings</h2>
+            <p>If you dont have an account but wish to become a potential future tenant, feel free to browse around and look at our available listings</p>
+            <p><a class="btn btn-outline-dark" href="/Property/AvailableProperties">View Listings &raquo;</a></p>
+        </section>
+        @if (Session["Role"] == "Owner" || Session["Role"] == "Manager")
+        {
+            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+                <h2 id="gettingStartedTitle"> Properties</h2>
+                <p>
+                    Manage properties, add new ones, or remove old ones
+                </p>
+                <p><a class="btn btn-outline-dark" href="/Property/">Manage &raquo;</a></p>
+            </section>
+            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+                <h2 id="gettingStartedTitle"> Tenants</h2>
+                <p>
+                    Manage tenants, add new ones, or remove old ones
+                </p>
+                <p><a class="btn btn-outline-dark" href="/Tenants/">Manage &raquo;</a></p>
+            </section>
+        }
+        @if (Session["Role"] == "Owner")
+        {
+            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+                <h2 id="gettingStartedTitle"> Managers</h2>
+                <p>
+                    Manage the staff that work for you
+                </p>
+                <p><a class="btn btn-outline-dark" href="/PropertyManagers/">Manage &raquo;</a></p>
+            </section>
+            
+        }
+        @if (Session["Role"] != null)
+        {
+            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+                <h2 id="gettingStartedTitle"> Mail</h2>
+                <p>
+                    Message people or organizations related to my propery status
+                </p>
+                <p><a class="btn btn-outline-dark" href="/Messages/">Inbox &raquo;</a></p>
+            </section>
+        }
+    </div>
+</main>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageId" />
+    </Key>
+    <Property Name="MessageId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderId" Type="Int32" Nullable="false" />
+    <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+    <Property Name="SenderType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ReceiverType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MessageContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Timestamp" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Property">
+    <Key>
+      <PropertyRef Name="PropertyId" />
+    </Key>
+    <Property Name="PropertyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PropertyManagerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PropertyManager" Relationship="Self.FK__Propertie__Prope__3E52440B" FromRole="Properties" ToRole="PropertyManagers" />
+    <NavigationProperty Name="Tenants" Relationship="Self.FK__Tenants__Propert__4222D4EF" FromRole="Properties" ToRole="Tenants" />
+  </EntityType>
+  <EntityType Name="PropertyManager">
+    <Key>
+      <PropertyRef Name="PropertyManagerId" />
+    </Key>
+    <Property Name="PropertyManagerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OwnerId" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Propertie__Prope__3E52440B" FromRole="PropertyManagers" ToRole="Properties" />
+    <NavigationProperty Name="PropertyOwner" Relationship="Self.FK__PropertyM__Owner__3B75D760" FromRole="PropertyManagers" ToRole="PropertyOwners" />
+  </EntityType>
+  <EntityType Name="PropertyOwner">
+    <Key>
+      <PropertyRef Name="OwnerId" />
+    </Key>
+    <Property Name="OwnerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PropertyManagers" Relationship="Self.FK__PropertyM__Owner__3B75D760" FromRole="PropertyOwners" ToRole="PropertyManagers" />
+  </EntityType>
+  <EntityType Name="Tenant">
+    <Key>
+      <PropertyRef Name="TenantId" />
+    </Key>
+    <Property Name="TenantId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PropertyId" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Property" Relationship="Self.FK__Tenants__Propert__4222D4EF" FromRole="Tenants" ToRole="Properties" />
+  </EntityType>
+  <Association Name="FK__Propertie__Prope__3E52440B">
+    <End Role="PropertyManagers" Type="Self.PropertyManager" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Properties" Type="Self.Property" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertyManagers">
+        <PropertyRef Name="PropertyManagerId" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="PropertyManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tenants__Propert__4222D4EF">
+    <End Role="Properties" Type="Self.Property" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Tenants" Type="Self.Tenant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="PropertyId" />
+      </Principal>
+      <Dependent Role="Tenants">
+        <PropertyRef Name="PropertyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PropertyM__Owner__3B75D760">
+    <End Role="PropertyOwners" Type="Self.PropertyOwner" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PropertyManagers" Type="Self.PropertyManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertyOwners">
+        <PropertyRef Name="OwnerId" />
+      </Principal>
+      <Dependent Role="PropertyManagers">
+        <PropertyRef Name="OwnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Properties" EntityType="Self.Property" />
+    <EntitySet Name="PropertyManagers" EntityType="Self.PropertyManager" />
+    <EntitySet Name="PropertyOwners" EntityType="Self.PropertyOwner" />
+    <EntitySet Name="Tenants" EntityType="Self.Tenant" />
+    <AssociationSet Name="FK__Propertie__Prope__3E52440B" Association="Self.FK__Propertie__Prope__3E52440B">
+      <End Role="PropertyManagers" EntitySet="PropertyManagers" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tenants__Propert__4222D4EF" Association="Self.FK__Tenants__Propert__4222D4EF">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Tenants" EntitySet="Tenants" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PropertyM__Owner__3B75D760" Association="Self.FK__PropertyM__Owner__3B75D760">
+      <End Role="PropertyOwners" EntitySet="PropertyOwners" />
+      <End Role="PropertyManagers" EntitySet="PropertyManagers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

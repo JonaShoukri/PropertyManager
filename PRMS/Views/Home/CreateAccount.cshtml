@@ -1,0 +1,37 @@
+﻿@model PRMS.Models.CreateAccountViewModel
+
+@{
+    ViewBag.Title = "CreateAccount";
+}
+
+<h2>CreateAccount</h2>
+
+@using (Html.BeginForm("CreateAccount", "Home", FormMethod.Post))
+{
+    <div>
+        <label>Name</label>
+        @Html.TextBoxFor(m => m.Name)
+    </div>
+    <div>
+        <label>Email</label>
+        @Html.TextBoxFor(m => m.Email)
+    </div>
+    <div>
+        <label>Password</label>
+        @Html.PasswordFor(m => m.Password)
+    </div>
+    <div>
+        <label>Confirm Password</label>
+        @Html.PasswordFor(m => m.ConfirmPassword)
+    </div>
+    <div>
+        <label>Role</label>
+        @Html.DropDownListFor(m => m.Role, new List<SelectListItem>
+        {
+            new SelectListItem { Text = "Owner", Value = "Owner" },
+            new SelectListItem { Text = "Manager", Value = "Manager" },
+            new SelectListItem { Text = "Tenant", Value = "Tenant" }
+        })
+    </div>
+    <button type="submit">Create Account</button>
+}

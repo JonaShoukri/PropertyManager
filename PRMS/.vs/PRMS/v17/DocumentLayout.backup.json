@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\messages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\messages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\propertyowners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\propertyowners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\propertyowners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\propertyowners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\models\\possiblemessagesdataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\possiblemessagesdataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\propertyownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\propertyownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\messages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\messages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\messages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\messages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|c:\\users\\jonas\\onedrive\\desktop\\final\\prms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\models\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\home\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\home\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\property\\availableproperties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\property\\availableproperties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\controllers\\propertymanagerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:controllers\\propertymanagerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\models\\propertymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\propertymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C1335ECD-4375-4444-A50E-E551B4B08FD4}|PRMS.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\PropertyOwners\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PropertyOwners\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\PropertyOwners\\Index.cshtml*",
+              "RelativeToolTip": "Views\\PropertyOwners\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T22:47:44.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\PropertyOwners\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PropertyOwners\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\PropertyOwners\\Create.cshtml",
+              "RelativeToolTip": "Views\\PropertyOwners\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T22:45:50.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Messages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Index.cshtml",
+              "RelativeToolTip": "Views\\Messages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T22:44:59.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PossibleMessagesDataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\PossibleMessagesDataViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PossibleMessagesDataViewModel.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\PossibleMessagesDataViewModel.cs",
+              "RelativeToolTip": "Models\\PossibleMessagesDataViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:39:32.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Messages\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Messages\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T22:10:39.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Property\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\Create.cshtml",
+              "RelativeToolTip": "Views\\Property\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T21:58:10.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Messages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Messages\\Create.cshtml",
+              "RelativeToolTip": "Views\\Messages\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T21:26:13.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:29:38.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwHkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:11:23.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:37:58.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AvailableProperties.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\AvailableProperties.cshtml",
+              "RelativeDocumentMoniker": "Views\\Property\\AvailableProperties.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\AvailableProperties.cshtml",
+              "RelativeToolTip": "Views\\Property\\AvailableProperties.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:59:53.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyOwnersController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyOwnersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertyOwnersController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyOwnersController.cs",
+              "RelativeToolTip": "Controllers\\PropertyOwnersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:36:53.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:30:19.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:09:20.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\CreateAccountViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CreateAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\CreateAccountViewModel.cs",
+              "RelativeToolTip": "Models\\CreateAccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:56.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\CreateAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateAccount.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\CreateAccount.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:51:42.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PropertyManagersController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyManagersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertyManagersController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyManagersController.cs",
+              "RelativeToolTip": "Controllers\\PropertyManagersController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAwLIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:37:16.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:30:18.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Property\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Property\\Index.cshtml",
+              "RelativeToolTip": "Views\\Property\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:01:25.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAgwKYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:35:45.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TenantsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\TenantsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TenantsController.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Controllers\\TenantsController.cs",
+              "RelativeToolTip": "Controllers\\TenantsController.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAwwLUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:37:35.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-25T15:16:53.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:06:41.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PropertyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\PropertyManager.cs",
+              "RelativeDocumentMoniker": "Models\\PropertyManager.cs",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\PropertyManager.cs",
+              "RelativeToolTip": "Models\\PropertyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:19:28.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:24:41.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "Models\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "Models\\Model1.Context.tt",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-25T14:58:08.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Jonas\\OneDrive\\Desktop\\Final\\PRMS\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-25T14:32:12.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
